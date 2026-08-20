@@ -1,0 +1,3 @@
+import { Button } from "@/components/ui/Button";
+import { buildWhatsAppUrl } from "@/lib/whatsapp";
+export function FinalCTA() { return <section className="mx-auto mb-10 w-[min(calc(100%-2rem),86rem)] bg-[var(--brand)] px-6 py-10 text-white md:w-[min(calc(100%-5rem),86rem)] md:px-12"><div className="flex flex-col items-start justify-between gap-7 md:flex-row md:items-center"><div><h2 className="font-display text-4xl md:text-5xl">Venha conhecer o espaço.</h2><p className="mt-3 text-sm text-white/70">Agende uma visita e encontre a melhor forma de trabalhar.</p></div><Button variant="light" href={buildWhatsAppUrl()}>Agendar visita</Button></div></section>; }
