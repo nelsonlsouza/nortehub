@@ -1,34 +1,62 @@
 # NorteHub Coworking
 
-Site institucional responsivo para o NorteHub, coworking em Manaus. Construído com Next.js 16, React 19, TypeScript, App Router, Tailwind CSS 4, `next/image`, `next/font` e Lucide React.
+Site institucional desenvolvido para o **NorteHub**, um espaço de coworking em Manaus.
 
-## Desenvolvimento
+O projeto apresenta os serviços, ambientes e principais informações do espaço por meio de uma interface moderna, responsiva e de fácil navegação.
 
-Requer Node.js 20.9 ou superior.
+##  Projeto online
 
-```bash
-npm install
-npm run dev
-```
+🔗 **Acesse a aplicação:** [NorteHub Coworking](https://nortehub-coworking.vercel.app/)
 
-Abra `http://localhost:3000`. Para validar a versão de produção:
+##  Sobre o projeto
 
-```bash
-npm run lint
-npm run typecheck
-npm run build
-```
+O NorteHub foi desenvolvido para fortalecer a presença digital do coworking e facilitar o acesso às principais informações do espaço.
 
-## Onde editar
+A aplicação reúne em um único ambiente informações sobre planos, espaços disponíveis, eventos, localização, perguntas frequentes e canais de contato.
 
-- Imagens: substitua os arquivos em `public/images/`, preservando os nomes e proporções aproximadas.
-- Textos, planos, espaços, eventos e FAQ: `src/data/content.ts`.
-- Telefone, WhatsApp, e-mail, redes sociais, endereço e horários: `src/data/site.ts`.
-- Cores e tokens globais: `src/app/globals.css`.
-- Cada seção: `src/components/sections/`.
+##  Principais funcionalidades
 
-As fotografias atuais são provisórias e locais. O endereço e os contatos também são dados editáveis e devem ser revisados antes da publicação.
+- Apresentação institucional do coworking
+- Exibição de planos e serviços
+- Apresentação dos espaços disponíveis
+- Divulgação de eventos
+- Seção de perguntas frequentes
+- Localização e informações de contato
+- Integração com WhatsApp
+- Interface responsiva para desktop e dispositivos móveis
 
-## Deploy na Vercel
+##  Tecnologias
 
-Envie o projeto para um repositório GitHub, importe-o na Vercel e mantenha as configurações detectadas para Next.js. Não são necessárias variáveis de ambiente. Antes de publicar, atualize `siteConfig.url`, contatos, endereço e fotografias.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React
+- Git & GitHub
+- Vercel
+
+##  Desenvolvimento
+
+O projeto foi estruturado utilizando componentização e separação de responsabilidades, facilitando a manutenção e evolução da aplicação.
+
+Os conteúdos e configurações principais são organizados separadamente dos componentes visuais, permitindo alterações de forma mais simples e organizada.
+
+##  Conceitos aplicados
+
+Durante o desenvolvimento foram aplicados conceitos de:
+
+- Desenvolvimento web com React e Next.js
+- Componentização de interfaces
+- TypeScript
+- Design responsivo
+- Organização e manutenção de código
+- Controle de versão com Git
+- Gerenciamento de repositório com GitHub
+- Deploy e publicação com Vercel
+
+##  Autor
+
+**Nelson Souza**  
+Desenvolvedor de Software
+
+GitHub: [@nelsonlsouza](https://github.com/nelsonlsouza)
